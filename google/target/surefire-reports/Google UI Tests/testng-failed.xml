@@ -7,9 +7,7 @@
         <methods>
           <include name="setUp"/>
           <include name="testGoogleLogoDisplayed"/>
-          <include name="testGooglePageLoad"/>
           <include name="tearDown"/>
-          <include name="testGoogleSearch"/>
         </methods>
       </class> <!-- com.google.automation.GoogleSearchTest -->
     </classes>
