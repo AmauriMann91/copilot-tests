@@ -22,6 +22,19 @@
         <webdrivermanager.version>5.7.0</webdrivermanager.version>
     </properties>
 
+    <repositories>
+        <repository>
+            <id>central</id>
+            <name>Central Repository</name>
+            <url>https://repo.maven.apache.org/maven2</url>
+        </repository>
+        <repository>
+            <id>browserstack-local-binaries</id>
+            <name>BrowserStack Local Binaries</name>
+            <url>https://browserstack.jfrog.io/artifactory/api/maven</url>
+        </repository>
+    </repositories>
+
     <dependencies>
         <!-- Selenium WebDriver -->
         <dependency>
@@ -55,6 +68,20 @@
             <groupId>org.slf4j</groupId>
             <artifactId>slf4j-simple</artifactId>
             <version>1.7.36</version>
+        </dependency>
+
+        <!-- JSON Processing for BrowserStack -->
+        <dependency>
+            <groupId>com.google.code.gson</groupId>
+            <artifactId>gson</artifactId>
+            <version>2.10.1</version>
+        </dependency>
+
+        <!-- HTTP Client for BrowserStack API -->
+        <dependency>
+            <groupId>org.apache.httpcomponents.client5</groupId>
+            <artifactId>httpclient5</artifactId>
+            <version>5.2.1</version>
         </dependency>
     </dependencies>
 

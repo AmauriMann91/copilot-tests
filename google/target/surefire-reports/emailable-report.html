@@ -9,33 +9,61 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="7">Google UI Tests</th></tr>
-<tr><td><a href="#t0">Google Search Tests</a></td><td class="num">2</td><td class="num">0</td><td class="num attn">1</td><td class="num">20.065</td><td></td><td></td></tr>
+<tr><td><a href="#t0">Google Search Tests</a></td><td class="num">10</td><td class="num">0</td><td class="num">0</td><td class="num">32.296</td><td></td><td></td></tr>
+<tr class="stripe"><td><a href="#t1">BrowserStack Tests</a></td><td class="num">7</td><td class="num">0</td><td class="num attn">1</td><td class="num">123.247</td><td></td><td></td></tr>
+<tr><th>Total</th><th class="num">17</th><th class="num">0</th><th class="num attn">1</th><th class="num">155.543</th><th colspan="2"></th></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Google UI Tests</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Google Search Tests &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.google.automation.GoogleSearchTest</td><td><a href="#m0">testGoogleLogoDisplayed</a></td><td rowspan="1">1764799448502</td><td rowspan="1">10688</td></tr><tr><th colspan="4">Google Search Tests &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">com.google.automation.GoogleSearchTest</td><td><a href="#m1">testGooglePageLoad</a></td><td rowspan="1">1764799460936</td><td rowspan="1">761</td></tr><tr class="passedeven"><td><a href="#m2">testGoogleSearch</a></td><td rowspan="1">1764799463022</td><td rowspan="1">2954</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Google UI Tests</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Google Search Tests &#8212; passed</th></tr><tr class="passedeven"><td rowspan="7">com.google.automation.GoogleSearchRegressionTest</td><td><a href="#m0">testRegressionBasicSearch</a></td><td rowspan="1">1765302868483</td><td rowspan="1">2027</td></tr><tr class="passedeven"><td><a href="#m1">testRegressionHomepageAccessibility</a></td><td rowspan="1">1765302871828</td><td rowspan="1">824</td></tr><tr class="passedeven"><td><a href="#m2">testRegressionPageStability</a></td><td rowspan="1">1765302873999</td><td rowspan="1">2660</td></tr><tr class="passedeven"><td><a href="#m3">testRegressionResultNavigation</a></td><td rowspan="1">1765302877987</td><td rowspan="1">3074</td></tr><tr class="passedeven"><td><a href="#m4">testRegressionSearchBoxPresent</a></td><td rowspan="1">1765302882455</td><td rowspan="1">835</td></tr><tr class="passedeven"><td><a href="#m5">testRegressionSearchInputHandling</a></td><td rowspan="1">1765302884666</td><td rowspan="1">912</td></tr><tr class="passedeven"><td><a href="#m6">testRegressionSearchResultsDisplayed</a></td><td rowspan="1">1765302887000</td><td rowspan="1">2411</td></tr><tr class="passedodd"><td rowspan="3">com.google.automation.GoogleSearchTest</td><td><a href="#m7">testGoogleLogoDisplayed</a></td><td rowspan="1">1765302859655</td><td rowspan="1">899</td></tr><tr class="passedodd"><td><a href="#m8">testGooglePageLoad</a></td><td rowspan="1">1765302861905</td><td rowspan="1">732</td></tr><tr class="passedodd"><td><a href="#m9">testGoogleSearch</a></td><td rowspan="1">1765302863997</td><td rowspan="1">3152</td></tr></tbody>
+<tbody id="t1"><tr><th colspan="4">BrowserStack Tests &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.google.automation.GoogleSearchBrowserStackTest</td><td><a href="#m10">testBrowserStackSearchResults</a></td><td rowspan="1">1765302954092</td><td rowspan="1">25473</td></tr><tr><th colspan="4">BrowserStack Tests &#8212; passed</th></tr><tr class="passedeven"><td rowspan="7">com.google.automation.GoogleSearchBrowserStackTest</td><td><a href="#m11">testBrowserStackGoogleLogo</a></td><td rowspan="1">1765302865644</td><td rowspan="1">3404</td></tr><tr class="passedeven"><td><a href="#m12">testBrowserStackGooglePageLoad</a></td><td rowspan="1">1765302875309</td><td rowspan="1">2321</td></tr><tr class="passedeven"><td><a href="#m13">testBrowserStackGoogleSearch</a></td><td rowspan="1">1765302884825</td><td rowspan="1">5053</td></tr><tr class="passedeven"><td><a href="#m14">testBrowserStackMultipleSearches</a></td><td rowspan="1">1765302895664</td><td rowspan="1">14708</td></tr><tr class="passedeven"><td><a href="#m15">testBrowserStackPageLoadPerformance</a></td><td rowspan="1">1765302916490</td><td rowspan="1">425</td></tr><tr class="passedeven"><td><a href="#m16">testBrowserStackPageNavigation</a></td><td rowspan="1">1765302925266</td><td rowspan="1">8460</td></tr><tr class="passedeven"><td><a href="#m17">testBrowserStackSearchBoxProperties</a></td><td rowspan="1">1765302944171</td><td rowspan="1">4164</td></tr></tbody>
 </table>
-<h2>Google Search Tests</h2><h3 id="m0">com.google.automation.GoogleSearchTest#testGoogleLogoDisplayed</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//img[@alt=&apos;Google&apos;]&quot;}
-  (Session info: chrome=142.0.7444.176)
+<h2>Google Search Tests</h2><h3 id="m0">com.google.automation.GoogleSearchRegressionTest#testRegressionBasicSearch</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.google.automation.GoogleSearchRegressionTest#testRegressionHomepageAccessibility</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">com.google.automation.GoogleSearchRegressionTest#testRegressionPageStability</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">com.google.automation.GoogleSearchRegressionTest#testRegressionResultNavigation</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">com.google.automation.GoogleSearchRegressionTest#testRegressionSearchBoxPresent</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">com.google.automation.GoogleSearchRegressionTest#testRegressionSearchInputHandling</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">com.google.automation.GoogleSearchRegressionTest#testRegressionSearchResultsDisplayed</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">com.google.automation.GoogleSearchTest#testGoogleLogoDisplayed</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">com.google.automation.GoogleSearchTest#testGooglePageLoad</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">com.google.automation.GoogleSearchTest#testGoogleSearch</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>BrowserStack Tests</h2><h3 id="m10">com.google.automation.GoogleSearchBrowserStackTest#testBrowserStackSearchResults</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.xpath: //div[contains(@class, &apos;search&apos;)] (tried for 10 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:230)
+	at com.google.automation.GoogleSearchBrowserStackTest.testBrowserStackSearchResults(GoogleSearchBrowserStackTest.java:131)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[contains(@class, &apos;search&apos;)]&quot;}
+  (Session info: chrome=143.0.7499.41)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: &apos;4.10.0&apos;, revision: &apos;c14d967899&apos;
 System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_202&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [b9ea4b7e65825f08c97fc21d2e228ffc, findElement {using=xpath, value=//img[@alt=&apos;Google&apos;]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.176, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: C:\Users\gabim\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57565}, goog:processID: 21900, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57565/devtoo..., se:cdpVersion: 142.0.7444.176, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: b9ea4b7e65825f08c97fc21d2e228ffc
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [cec2e43245535b9be6dad56c7a96d6bda75a9ba9, findElement {using=xpath, value=//div[contains(@class, &apos;search&apos;)]}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 143.0.7499.41, chrome: {chromedriverVersion: 143.0.7499.40 (c23ff452476d..., userDataDir: C:\Windows\proxy\scoped_dir...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:9222}, goog:processID: 3392, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: cec2e43245535b9be6dad56c7a9...}
+Session ID: cec2e43245535b9be6dad56c7a96d6bda75a9ba9
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:199)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:132)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
 	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+	at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:51)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:531)
 	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
 	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
-	at com.google.automation.GoogleSearchTest.testGoogleLogoDisplayed(GoogleSearchTest.java:80)
-... Removed 33 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">com.google.automation.GoogleSearchTest#testGooglePageLoad</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m2">com.google.automation.GoogleSearchTest#testGoogleSearch</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:171)
+	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:168)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:205)
+	... 21 more
+... Removed 20 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m11">com.google.automation.GoogleSearchBrowserStackTest#testBrowserStackGoogleLogo</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m12">com.google.automation.GoogleSearchBrowserStackTest#testBrowserStackGooglePageLoad</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m13">com.google.automation.GoogleSearchBrowserStackTest#testBrowserStackGoogleSearch</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m14">com.google.automation.GoogleSearchBrowserStackTest#testBrowserStackMultipleSearches</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m15">com.google.automation.GoogleSearchBrowserStackTest#testBrowserStackPageLoadPerformance</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m16">com.google.automation.GoogleSearchBrowserStackTest#testBrowserStackPageNavigation</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m17">com.google.automation.GoogleSearchBrowserStackTest#testBrowserStackSearchBoxProperties</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

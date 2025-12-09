@@ -1,8 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<suite name="Google UI Tests" verbose="2">
+<suite name="Google UI Tests" verbose="2" parallel="tests" thread-count="2">
     <test name="Google Search Tests">
         <classes>
             <class name="com.google.automation.GoogleSearchTest"/>
+            <class name="com.google.automation.GoogleSearchRegressionTest"/>
+        </classes>
+    </test>
+    
+    <test name="BrowserStack Tests">
+        <classes>
+            <class name="com.google.automation.GoogleSearchBrowserStackTest"/>
         </classes>
     </test>
 </suite>

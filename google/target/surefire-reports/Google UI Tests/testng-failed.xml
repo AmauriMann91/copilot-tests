@@ -1,15 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite verbose="0" name="Failed suite [Google UI Tests]">
-  <test thread-count="5" verbose="0" name="Google Search Tests(failed)">
+<suite thread-count="2" verbose="0" name="Failed suite [Google UI Tests]" parallel="tests">
+  <test thread-count="2" verbose="0" name="BrowserStack Tests(failed)" parallel="tests">
     <classes>
-      <class name="com.google.automation.GoogleSearchTest">
+      <class name="com.google.automation.GoogleSearchBrowserStackTest">
         <methods>
-          <include name="setUp"/>
-          <include name="testGoogleLogoDisplayed"/>
           <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="testBrowserStackSearchResults"/>
+          <include name="setUp"/>
         </methods>
-      </class> <!-- com.google.automation.GoogleSearchTest -->
+      </class> <!-- com.google.automation.GoogleSearchBrowserStackTest -->
     </classes>
-  </test> <!-- Google Search Tests(failed) -->
+  </test> <!-- BrowserStack Tests(failed) -->
 </suite> <!-- Failed suite [Google UI Tests] -->

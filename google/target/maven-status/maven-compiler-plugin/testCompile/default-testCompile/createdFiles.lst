@@ -1,2 +1,6 @@
 com\google\automation\GoogleSearchTest.class
+com\google\automation\BrowserStackConfig.class
+com\google\automation\BrowserStackBaseTest.class
 com\google\automation\BaseTest.class
+com\google\automation\GoogleSearchRegressionTest.class
+com\google\automation\GoogleSearchBrowserStackTest.class
