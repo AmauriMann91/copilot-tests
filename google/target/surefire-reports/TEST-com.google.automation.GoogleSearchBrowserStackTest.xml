@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.google.automation.GoogleSearchTest" time="10.348" tests="3" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.google.automation.GoogleSearchBrowserStackTest" time="90.508" tests="7" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
     <property name="file.encoding.pkg" value="sun.io"/>
     <property name="java.specification.version" value="1.8"/>
-    <property name="webdriver.chrome.driver" value="C:\Users\gabim\.cache\selenium\chromedriver\win64\142.0.7444.175\chromedriver.exe"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
     <property name="java.class.path" value="C:\Users\gabim\Documents\GitHub\copilot-tests\google\target\test-classes;C:\Users\gabim\Documents\GitHub\copilot-tests\google\target\classes;C:\Users\gabim\.m2\repository\org\seleniumhq\selenium\selenium-java\4.10.0\selenium-java-4.10.0.jar;C:\Users\gabim\.m2\repository\org\seleniumhq\selenium\selenium-api\4.10.0\selenium-api-4.10.0.jar;C:\Users\gabim\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.10.0\selenium-chrome-driver-4.10.0.jar;C:\Users\gabim\.m2\repository\com\google\auto\service\auto-service-annotations\1.0.1\auto-service-annotations-1.0.1.jar;C:\Users\gabim\.m2\repository\com\google\auto\service\auto-service\1.0.1\auto-service-1.0.1.jar;C:\Users\gabim\.m2\repository\com\google\auto\auto-common\1.2\auto-common-1.2.jar;C:\Users\gabim\.m2\repository\com\google\guava\guava\31.1-jre\guava-31.1-jre.jar;C:\Users\gabim\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\gabim\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\gabim\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\gabim\.m2\repository\org\checkerframework\checker-qual\3.12.0\checker-qual-3.12.0.jar;C:\Users\gabim\.m2\repository\com\google\errorprone\error_prone_annotations\2.11.0\error_prone_annotations-2.11.0.jar;C:\Users\gabim\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\gabim\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.10.0\selenium-chromium-driver-4.10.0.jar;C:\Users\gabim\.m2\repository\org\seleniumhq\selenium\selenium-json\4.10.0\selenium-json-4.10.0.jar;C:\Users\gabim\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.10.0\selenium-manager-4.10.0.jar;C:\Users\gabim\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v112\4.10.0\selenium-devtools-v112-4.10.0.jar;C:\Users\gabim\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v113\4.10.0\selenium-devtools-v113-4.10.0.jar;C:\Users\gabim\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v114\4.10.0\selenium-devtools-v114-4.10.0.jar;C:\Users\gabim\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.10.0\selenium-devtools-v85-4.10.0.jar;C:\Users\gabim\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.10.0\selenium-edge-driver-4.10.0.jar;C:\Users\gabim\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.10.0\selenium-firefox-driver-4.10.0.jar;C:\Users\gabim\.m2\repository\org\seleniumhq\selenium\selenium-http\4.10.0\selenium-http-4.10.0.jar;C:\Users\gabim\.m2\repository\dev\failsafe\failsafe\3.3.1\failsafe-3.3.1.jar;C:\Users\gabim\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.10.0\selenium-ie-driver-4.10.0.jar;C:\Users\gabim\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.10.0\selenium-remote-driver-4.10.0.jar;C:\Users\gabim\.m2\repository\io\netty\netty-buffer\4.1.92.Final\netty-buffer-4.1.92.Final.jar;C:\Users\gabim\.m2\repository\io\netty\netty-codec-http\4.1.92.Final\netty-codec-http-4.1.92.Final.jar;C:\Users\gabim\.m2\repository\io\netty\netty-codec\4.1.92.Final\netty-codec-4.1.92.Final.jar;C:\Users\gabim\.m2\repository\io\netty\netty-handler\4.1.92.Final\netty-handler-4.1.92.Final.jar;C:\Users\gabim\.m2\repository\io\netty\netty-common\4.1.92.Final\netty-common-4.1.92.Final.jar;C:\Users\gabim\.m2\repository\io\netty\netty-transport-classes-epoll\4.1.92.Final\netty-transport-classes-epoll-4.1.92.Final.jar;C:\Users\gabim\.m2\repository\io\netty\netty-transport-classes-kqueue\4.1.92.Final\netty-transport-classes-kqueue-4.1.92.Final.jar;C:\Users\gabim\.m2\repository\io\netty\netty-transport-native-epoll\4.1.92.Final\netty-transport-native-epoll-4.1.92.Final.jar;C:\Users\gabim\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.92.Final\netty-transport-native-kqueue-4.1.92.Final.jar;C:\Users\gabim\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.92.Final\netty-transport-native-unix-common-4.1.92.Final.jar;C:\Users\gabim\.m2\repository\io\netty\netty-transport\4.1.92.Final\netty-transport-4.1.92.Final.jar;C:\Users\gabim\.m2\repository\io\netty\netty-resolver\4.1.92.Final\netty-resolver-4.1.92.Final.jar;C:\Users\gabim\.m2\repository\io\opentelemetry\opentelemetry-api\1.26.0\opentelemetry-api-1.26.0.jar;C:\Users\gabim\.m2\repository\io\opentelemetry\opentelemetry-context\1.26.0\opentelemetry-context-1.26.0.jar;C:\Users\gabim\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.26.0\opentelemetry-exporter-logging-1.26.0.jar;C:\Users\gabim\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.26.0\opentelemetry-sdk-metrics-1.26.0.jar;C:\Users\gabim\.m2\repository\io\opentelemetry\opentelemetry-extension-incubator\1.26.0-alpha\opentelemetry-extension-incubator-1.26.0-alpha.jar;C:\Users\gabim\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.26.0-alpha\opentelemetry-sdk-logs-1.26.0-alpha.jar;C:\Users\gabim\.m2\repository\io\opentelemetry\opentelemetry-api-logs\1.26.0-alpha\opentelemetry-api-logs-1.26.0-alpha.jar;C:\Users\gabim\.m2\repository\io\opentelemetry\opentelemetry-api-events\1.26.0-alpha\opentelemetry-api-events-1.26.0-alpha.jar;C:\Users\gabim\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.26.0\opentelemetry-sdk-common-1.26.0.jar;C:\Users\gabim\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.26.0\opentelemetry-sdk-extension-autoconfigure-spi-1.26.0.jar;C:\Users\gabim\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.26.0-alpha\opentelemetry-sdk-extension-autoconfigure-1.26.0-alpha.jar;C:\Users\gabim\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.26.0\opentelemetry-sdk-trace-1.26.0.jar;C:\Users\gabim\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.26.0\opentelemetry-sdk-1.26.0.jar;C:\Users\gabim\.m2\repository\io\opentelemetry\opentelemetry-semconv\1.26.0-alpha\opentelemetry-semconv-1.26.0-alpha.jar;C:\Users\gabim\.m2\repository\net\bytebuddy\byte-buddy\1.14.4\byte-buddy-1.14.4.jar;C:\Users\gabim\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\gabim\.m2\repository\org\asynchttpclient\async-http-client\2.12.3\async-http-client-2.12.3.jar;C:\Users\gabim\.m2\repository\org\asynchttpclient\async-http-client-netty-utils\2.12.3\async-http-client-netty-utils-2.12.3.jar;C:\Users\gabim\.m2\repository\io\netty\netty-codec-socks\4.1.60.Final\netty-codec-socks-4.1.60.Final.jar;C:\Users\gabim\.m2\repository\io\netty\netty-handler-proxy\4.1.60.Final\netty-handler-proxy-4.1.60.Final.jar;C:\Users\gabim\.m2\repository\io\netty\netty-transport-native-epoll\4.1.60.Final\netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar;C:\Users\gabim\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.60.Final\netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar;C:\Users\gabim\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\gabim\.m2\repository\com\typesafe\netty\netty-reactive-streams\2.0.4\netty-reactive-streams-2.0.4.jar;C:\Users\gabim\.m2\repository\com\sun\activation\jakarta.activation\1.2.2\jakarta.activation-1.2.2.jar;C:\Users\gabim\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.10.0\selenium-safari-driver-4.10.0.jar;C:\Users\gabim\.m2\repository\org\seleniumhq\selenium\selenium-support\4.10.0\selenium-support-4.10.0.jar;C:\Users\gabim\.m2\repository\io\github\bonigarcia\webdrivermanager\5.7.0\webdrivermanager-5.7.0.jar;C:\Users\gabim\.m2\repository\com\github\docker-java\docker-java\3.3.5\docker-java-3.3.5.jar;C:\Users\gabim\.m2\repository\com\github\docker-java\docker-java-core\3.3.5\docker-java-core-3.3.5.jar;C:\Users\gabim\.m2\repository\com\github\docker-java\docker-java-api\3.3.5\docker-java-api-3.3.5.jar;C:\Users\gabim\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar;C:\Users\gabim\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar;C:\Users\gabim\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.3\jackson-core-2.10.3.jar;C:\Users\gabim\.m2\repository\org\bouncycastle\bcpkix-jdk18on\1.76\bcpkix-jdk18on-1.76.jar;C:\Users\gabim\.m2\repository\org\bouncycastle\bcprov-jdk18on\1.76\bcprov-jdk18on-1.76.jar;C:\Users\gabim\.m2\repository\org\bouncycastle\bcutil-jdk18on\1.76\bcutil-jdk18on-1.76.jar;C:\Users\gabim\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\gabim\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.3.5\docker-java-transport-httpclient5-3.3.5.jar;C:\Users\gabim\.m2\repository\com\github\docker-java\docker-java-transport\3.3.5\docker-java-transport-3.3.5.jar;C:\Users\gabim\.m2\repository\net\java\dev\jna\jna\5.13.0\jna-5.13.0.jar;C:\Users\gabim\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\gabim\.m2\repository\org\apache\commons\commons-lang3\3.14.0\commons-lang3-3.14.0.jar;C:\Users\gabim\.m2\repository\org\apache\commons\commons-compress\1.26.0\commons-compress-1.26.0.jar;C:\Users\gabim\.m2\repository\commons-io\commons-io\2.15.1\commons-io-2.15.1.jar;C:\Users\gabim\.m2\repository\org\testng\testng\6.14.3\testng-6.14.3.jar;C:\Users\gabim\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\gabim\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar;C:\Users\gabim\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\gabim\.m2\repository\org\slf4j\slf4j-simple\1.7.36\slf4j-simple-1.7.36.jar;C:\Users\gabim\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\gabim\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.2.1\httpclient5-5.2.1.jar;C:\Users\gabim\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2\httpcore5-5.2.jar;C:\Users\gabim\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2\httpcore5-h2-5.2.jar;"/>
@@ -19,8 +18,8 @@
     <property name="user.country" value="BR"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_202\jre\bin"/>
-    <property name="sun.java.command" value="C:\Users\gabim\AppData\Local\Temp\surefire8648571747570170663\surefirebooter-20251210162435270_3.jar C:\Users\gabim\AppData\Local\Temp\surefire8648571747570170663 2025-12-10T16-24-34_950-jvmRun1 surefire-20251210162435270_1tmp surefire_0-20251210162435270_2tmp"/>
-    <property name="test" value="GoogleSearchTest"/>
+    <property name="sun.java.command" value="C:\Users\gabim\AppData\Local\Temp\surefire2533945181819906731\surefirebooter-20251210162855085_3.jar C:\Users\gabim\AppData\Local\Temp\surefire2533945181819906731 2025-12-10T16-28-54_830-jvmRun1 surefire-20251210162855085_1tmp surefire_0-20251210162855085_2tmp"/>
+    <property name="test" value="GoogleSearchBrowserStackTest"/>
     <property name="surefire.test.class.path" value="C:\Users\gabim\Documents\GitHub\copilot-tests\google\target\test-classes;C:\Users\gabim\Documents\GitHub\copilot-tests\google\target\classes;C:\Users\gabim\.m2\repository\org\seleniumhq\selenium\selenium-java\4.10.0\selenium-java-4.10.0.jar;C:\Users\gabim\.m2\repository\org\seleniumhq\selenium\selenium-api\4.10.0\selenium-api-4.10.0.jar;C:\Users\gabim\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.10.0\selenium-chrome-driver-4.10.0.jar;C:\Users\gabim\.m2\repository\com\google\auto\service\auto-service-annotations\1.0.1\auto-service-annotations-1.0.1.jar;C:\Users\gabim\.m2\repository\com\google\auto\service\auto-service\1.0.1\auto-service-1.0.1.jar;C:\Users\gabim\.m2\repository\com\google\auto\auto-common\1.2\auto-common-1.2.jar;C:\Users\gabim\.m2\repository\com\google\guava\guava\31.1-jre\guava-31.1-jre.jar;C:\Users\gabim\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\gabim\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\gabim\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\gabim\.m2\repository\org\checkerframework\checker-qual\3.12.0\checker-qual-3.12.0.jar;C:\Users\gabim\.m2\repository\com\google\errorprone\error_prone_annotations\2.11.0\error_prone_annotations-2.11.0.jar;C:\Users\gabim\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\gabim\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.10.0\selenium-chromium-driver-4.10.0.jar;C:\Users\gabim\.m2\repository\org\seleniumhq\selenium\selenium-json\4.10.0\selenium-json-4.10.0.jar;C:\Users\gabim\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.10.0\selenium-manager-4.10.0.jar;C:\Users\gabim\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v112\4.10.0\selenium-devtools-v112-4.10.0.jar;C:\Users\gabim\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v113\4.10.0\selenium-devtools-v113-4.10.0.jar;C:\Users\gabim\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v114\4.10.0\selenium-devtools-v114-4.10.0.jar;C:\Users\gabim\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.10.0\selenium-devtools-v85-4.10.0.jar;C:\Users\gabim\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.10.0\selenium-edge-driver-4.10.0.jar;C:\Users\gabim\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.10.0\selenium-firefox-driver-4.10.0.jar;C:\Users\gabim\.m2\repository\org\seleniumhq\selenium\selenium-http\4.10.0\selenium-http-4.10.0.jar;C:\Users\gabim\.m2\repository\dev\failsafe\failsafe\3.3.1\failsafe-3.3.1.jar;C:\Users\gabim\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.10.0\selenium-ie-driver-4.10.0.jar;C:\Users\gabim\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.10.0\selenium-remote-driver-4.10.0.jar;C:\Users\gabim\.m2\repository\io\netty\netty-buffer\4.1.92.Final\netty-buffer-4.1.92.Final.jar;C:\Users\gabim\.m2\repository\io\netty\netty-codec-http\4.1.92.Final\netty-codec-http-4.1.92.Final.jar;C:\Users\gabim\.m2\repository\io\netty\netty-codec\4.1.92.Final\netty-codec-4.1.92.Final.jar;C:\Users\gabim\.m2\repository\io\netty\netty-handler\4.1.92.Final\netty-handler-4.1.92.Final.jar;C:\Users\gabim\.m2\repository\io\netty\netty-common\4.1.92.Final\netty-common-4.1.92.Final.jar;C:\Users\gabim\.m2\repository\io\netty\netty-transport-classes-epoll\4.1.92.Final\netty-transport-classes-epoll-4.1.92.Final.jar;C:\Users\gabim\.m2\repository\io\netty\netty-transport-classes-kqueue\4.1.92.Final\netty-transport-classes-kqueue-4.1.92.Final.jar;C:\Users\gabim\.m2\repository\io\netty\netty-transport-native-epoll\4.1.92.Final\netty-transport-native-epoll-4.1.92.Final.jar;C:\Users\gabim\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.92.Final\netty-transport-native-kqueue-4.1.92.Final.jar;C:\Users\gabim\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.92.Final\netty-transport-native-unix-common-4.1.92.Final.jar;C:\Users\gabim\.m2\repository\io\netty\netty-transport\4.1.92.Final\netty-transport-4.1.92.Final.jar;C:\Users\gabim\.m2\repository\io\netty\netty-resolver\4.1.92.Final\netty-resolver-4.1.92.Final.jar;C:\Users\gabim\.m2\repository\io\opentelemetry\opentelemetry-api\1.26.0\opentelemetry-api-1.26.0.jar;C:\Users\gabim\.m2\repository\io\opentelemetry\opentelemetry-context\1.26.0\opentelemetry-context-1.26.0.jar;C:\Users\gabim\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.26.0\opentelemetry-exporter-logging-1.26.0.jar;C:\Users\gabim\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.26.0\opentelemetry-sdk-metrics-1.26.0.jar;C:\Users\gabim\.m2\repository\io\opentelemetry\opentelemetry-extension-incubator\1.26.0-alpha\opentelemetry-extension-incubator-1.26.0-alpha.jar;C:\Users\gabim\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.26.0-alpha\opentelemetry-sdk-logs-1.26.0-alpha.jar;C:\Users\gabim\.m2\repository\io\opentelemetry\opentelemetry-api-logs\1.26.0-alpha\opentelemetry-api-logs-1.26.0-alpha.jar;C:\Users\gabim\.m2\repository\io\opentelemetry\opentelemetry-api-events\1.26.0-alpha\opentelemetry-api-events-1.26.0-alpha.jar;C:\Users\gabim\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.26.0\opentelemetry-sdk-common-1.26.0.jar;C:\Users\gabim\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.26.0\opentelemetry-sdk-extension-autoconfigure-spi-1.26.0.jar;C:\Users\gabim\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.26.0-alpha\opentelemetry-sdk-extension-autoconfigure-1.26.0-alpha.jar;C:\Users\gabim\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.26.0\opentelemetry-sdk-trace-1.26.0.jar;C:\Users\gabim\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.26.0\opentelemetry-sdk-1.26.0.jar;C:\Users\gabim\.m2\repository\io\opentelemetry\opentelemetry-semconv\1.26.0-alpha\opentelemetry-semconv-1.26.0-alpha.jar;C:\Users\gabim\.m2\repository\net\bytebuddy\byte-buddy\1.14.4\byte-buddy-1.14.4.jar;C:\Users\gabim\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\gabim\.m2\repository\org\asynchttpclient\async-http-client\2.12.3\async-http-client-2.12.3.jar;C:\Users\gabim\.m2\repository\org\asynchttpclient\async-http-client-netty-utils\2.12.3\async-http-client-netty-utils-2.12.3.jar;C:\Users\gabim\.m2\repository\io\netty\netty-codec-socks\4.1.60.Final\netty-codec-socks-4.1.60.Final.jar;C:\Users\gabim\.m2\repository\io\netty\netty-handler-proxy\4.1.60.Final\netty-handler-proxy-4.1.60.Final.jar;C:\Users\gabim\.m2\repository\io\netty\netty-transport-native-epoll\4.1.60.Final\netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar;C:\Users\gabim\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.60.Final\netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar;C:\Users\gabim\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\gabim\.m2\repository\com\typesafe\netty\netty-reactive-streams\2.0.4\netty-reactive-streams-2.0.4.jar;C:\Users\gabim\.m2\repository\com\sun\activation\jakarta.activation\1.2.2\jakarta.activation-1.2.2.jar;C:\Users\gabim\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.10.0\selenium-safari-driver-4.10.0.jar;C:\Users\gabim\.m2\repository\org\seleniumhq\selenium\selenium-support\4.10.0\selenium-support-4.10.0.jar;C:\Users\gabim\.m2\repository\io\github\bonigarcia\webdrivermanager\5.7.0\webdrivermanager-5.7.0.jar;C:\Users\gabim\.m2\repository\com\github\docker-java\docker-java\3.3.5\docker-java-3.3.5.jar;C:\Users\gabim\.m2\repository\com\github\docker-java\docker-java-core\3.3.5\docker-java-core-3.3.5.jar;C:\Users\gabim\.m2\repository\com\github\docker-java\docker-java-api\3.3.5\docker-java-api-3.3.5.jar;C:\Users\gabim\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar;C:\Users\gabim\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar;C:\Users\gabim\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.3\jackson-core-2.10.3.jar;C:\Users\gabim\.m2\repository\org\bouncycastle\bcpkix-jdk18on\1.76\bcpkix-jdk18on-1.76.jar;C:\Users\gabim\.m2\repository\org\bouncycastle\bcprov-jdk18on\1.76\bcprov-jdk18on-1.76.jar;C:\Users\gabim\.m2\repository\org\bouncycastle\bcutil-jdk18on\1.76\bcutil-jdk18on-1.76.jar;C:\Users\gabim\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\gabim\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.3.5\docker-java-transport-httpclient5-3.3.5.jar;C:\Users\gabim\.m2\repository\com\github\docker-java\docker-java-transport\3.3.5\docker-java-transport-3.3.5.jar;C:\Users\gabim\.m2\repository\net\java\dev\jna\jna\5.13.0\jna-5.13.0.jar;C:\Users\gabim\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\gabim\.m2\repository\org\apache\commons\commons-lang3\3.14.0\commons-lang3-3.14.0.jar;C:\Users\gabim\.m2\repository\org\apache\commons\commons-compress\1.26.0\commons-compress-1.26.0.jar;C:\Users\gabim\.m2\repository\commons-io\commons-io\2.15.1\commons-io-2.15.1.jar;C:\Users\gabim\.m2\repository\org\testng\testng\6.14.3\testng-6.14.3.jar;C:\Users\gabim\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\gabim\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar;C:\Users\gabim\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\gabim\.m2\repository\org\slf4j\slf4j-simple\1.7.36\slf4j-simple-1.7.36.jar;C:\Users\gabim\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\gabim\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.2.1\httpclient5-5.2.1.jar;C:\Users\gabim\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2\httpcore5-5.2.jar;C:\Users\gabim\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2\httpcore5-h2-5.2.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\gabim"/>
@@ -33,16 +32,18 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\gabim\AppData\Local\Temp\surefire8648571747570170663\surefirebooter-20251210162435270_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\gabim\AppData\Local\Temp\surefire2533945181819906731\surefirebooter-20251210162855085_3.jar"/>
     <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_202\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_202\jre\classes"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="1.8.0_202-b08"/>
     <property name="user.name" value="gabim"/>
     <property name="path.separator" value=";"/>
+    <property name="otel.metrics.exporter" value="none"/>
     <property name="os.version" value="10.0"/>
     <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_202\jre\lib\endorsed"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="otel.traces.exporter" value="none"/>
     <property name="file.encoding" value="Cp1252"/>
     <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
     <property name="localRepository" value="C:\Users\gabim\.m2\repository"/>
@@ -62,48 +63,134 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="52.0"/>
   </properties>
-  <testcase name="testGoogleLogoDisplayed" classname="com.google.automation.GoogleSearchTest" time="0.723">
-    <system-err><![CDATA[[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 142.0.7444.175 (resolved driver for Chrome 142)
-[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\gabim\.cache\selenium\chromedriver\win64\142.0.7444.175\chromedriver.exe
-dez 10, 2025 4:24:36 PM org.openqa.selenium.remote.service.DriverService$Builder getLogOutput
-INFORMAÇÕES: Driver logs no longer sent to console by default; https://www.selenium.dev/documentation/webdriver/drivers/service/#setting-log-output
-dez 10, 2025 4:24:37 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-ADVERTÊNCIA: Unable to find CDP implementation matching 142
-dez 10, 2025 4:24:37 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
-ADVERTÊNCIA: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.10.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
-[main] INFO com.google.automation.BaseTest - WebDriver initialized successfully
-[main] INFO com.google.automation.GoogleSearchTest - Starting test: testGoogleLogoDisplayed
-[main] INFO com.google.automation.GoogleSearchTest - Google logo verified as displayed
+  <testcase name="testBrowserStackGoogleLogo" classname="com.google.automation.GoogleSearchBrowserStackTest" time="3.237">
+    <system-err><![CDATA[[main] INFO com.google.automation.BrowserStackBaseTest - Initializing WebDriver with type: browserstack
+[main] INFO com.google.automation.BrowserStackBaseTest - Setting up BrowserStack RemoteWebDriver
+[main] INFO com.google.automation.BrowserStackBaseTest - BrowserStack Hub URL: https://amaurimoraismann_qL3hsa:v81FXLTPVGqPrG8sJxuM@hub.browserstack.com/wd/hub
+dez 10, 2025 4:28:55 PM org.openqa.selenium.remote.tracing.opentelemetry.OpenTelemetryTracer createTracer
+INFORMAÇÕES: Using OpenTelemetry for tracing
+[main] INFO com.google.automation.BrowserStackBaseTest - BrowserStack RemoteWebDriver initialized successfully
+[main] INFO com.google.automation.BrowserStackBaseTest - Session ID: 747f79db3d3b9b2469fe1a5bf8d425ab9ed9fd7b
+[main] INFO com.google.automation.BrowserStackBaseTest - WebDriver initialized successfully with type: browserstack
+[main] INFO com.google.automation.GoogleSearchBrowserStackTest - Test setup completed with session ID: 747f79db3d3b9b2469fe1a5bf8d425ab9ed9fd7b
+[main] INFO com.google.automation.GoogleSearchBrowserStackTest - Starting test: testBrowserStackGoogleLogo
+[main] INFO com.google.automation.GoogleSearchBrowserStackTest - PASSED: Google logo verified
 ]]></system-err>
   </testcase>
-  <testcase name="testGooglePageLoad" classname="com.google.automation.GoogleSearchTest" time="0.718">
-    <system-err><![CDATA[[main] INFO com.google.automation.BaseTest - WebDriver closed successfully
-[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 142.0.7444.175 (resolved driver for Chrome 142)
-[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\gabim\.cache\selenium\chromedriver\win64\142.0.7444.175\chromedriver.exe
-dez 10, 2025 4:24:39 PM org.openqa.selenium.remote.service.DriverService$Builder getLogOutput
-INFORMAÇÕES: Driver logs no longer sent to console by default; https://www.selenium.dev/documentation/webdriver/drivers/service/#setting-log-output
-dez 10, 2025 4:24:39 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-ADVERTÊNCIA: Unable to find CDP implementation matching 142
-dez 10, 2025 4:24:39 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
-ADVERTÊNCIA: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.10.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
-[main] INFO com.google.automation.BaseTest - WebDriver initialized successfully
-[main] INFO com.google.automation.GoogleSearchTest - Starting test: testGooglePageLoad
-[main] INFO com.google.automation.GoogleSearchTest - Page Title: Google
+  <testcase name="testBrowserStackGooglePageLoad" classname="com.google.automation.GoogleSearchBrowserStackTest" time="2.532">
+    <system-err><![CDATA[[main] INFO com.google.automation.BrowserStackBaseTest - BrowserStack session status updated: PASSED
+[main] INFO com.google.automation.GoogleSearchBrowserStackTest - Test PASSED: testBrowserStackGoogleLogo
+[main] INFO com.google.automation.BrowserStackBaseTest - Closing BrowserStack session: 747f79db3d3b9b2469fe1a5bf8d425ab9ed9fd7b
+[main] INFO com.google.automation.BrowserStackBaseTest - WebDriver closed successfully
+[main] INFO com.google.automation.BrowserStackBaseTest - Closing BrowserStack session: null
+[main] INFO com.google.automation.BrowserStackBaseTest - WebDriver closed successfully
+[main] INFO com.google.automation.BrowserStackBaseTest - Initializing WebDriver with type: browserstack
+[main] INFO com.google.automation.BrowserStackBaseTest - Setting up BrowserStack RemoteWebDriver
+[main] INFO com.google.automation.BrowserStackBaseTest - BrowserStack Hub URL: https://amaurimoraismann_qL3hsa:v81FXLTPVGqPrG8sJxuM@hub.browserstack.com/wd/hub
+[main] INFO com.google.automation.BrowserStackBaseTest - BrowserStack RemoteWebDriver initialized successfully
+[main] INFO com.google.automation.BrowserStackBaseTest - Session ID: a6150b64c17f2347724c3e751c4c8f763d130d39
+[main] INFO com.google.automation.BrowserStackBaseTest - WebDriver initialized successfully with type: browserstack
+[main] INFO com.google.automation.GoogleSearchBrowserStackTest - Test setup completed with session ID: a6150b64c17f2347724c3e751c4c8f763d130d39
+[main] INFO com.google.automation.GoogleSearchBrowserStackTest - Starting test: testBrowserStackGooglePageLoad
+[main] INFO com.google.automation.GoogleSearchBrowserStackTest - Page Title: Google
+[main] INFO com.google.automation.GoogleSearchBrowserStackTest - PASSED: Google homepage loaded successfully
 ]]></system-err>
   </testcase>
-  <testcase name="testGoogleSearch" classname="com.google.automation.GoogleSearchTest" time="3.061">
-    <system-err><![CDATA[[main] INFO com.google.automation.BaseTest - WebDriver closed successfully
-[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 142.0.7444.175 (resolved driver for Chrome 142)
-[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\gabim\.cache\selenium\chromedriver\win64\142.0.7444.175\chromedriver.exe
-dez 10, 2025 4:24:41 PM org.openqa.selenium.remote.service.DriverService$Builder getLogOutput
-INFORMAÇÕES: Driver logs no longer sent to console by default; https://www.selenium.dev/documentation/webdriver/drivers/service/#setting-log-output
-dez 10, 2025 4:24:42 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-ADVERTÊNCIA: Unable to find CDP implementation matching 142
-dez 10, 2025 4:24:42 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
-ADVERTÊNCIA: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.10.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
-[main] INFO com.google.automation.BaseTest - WebDriver initialized successfully
-[main] INFO com.google.automation.GoogleSearchTest - Starting test: testGoogleSearch
-[main] INFO com.google.automation.GoogleSearchTest - Results Page Title: Selenium WebDriver - Pesquisa Google
+  <testcase name="testBrowserStackGoogleSearch" classname="com.google.automation.GoogleSearchBrowserStackTest" time="6.794">
+    <system-err><![CDATA[[main] INFO com.google.automation.BrowserStackBaseTest - BrowserStack session status updated: PASSED
+[main] INFO com.google.automation.GoogleSearchBrowserStackTest - Test PASSED: testBrowserStackGooglePageLoad
+[main] INFO com.google.automation.BrowserStackBaseTest - Closing BrowserStack session: a6150b64c17f2347724c3e751c4c8f763d130d39
+[main] INFO com.google.automation.BrowserStackBaseTest - WebDriver closed successfully
+[main] INFO com.google.automation.BrowserStackBaseTest - Closing BrowserStack session: null
+[main] INFO com.google.automation.BrowserStackBaseTest - WebDriver closed successfully
+[main] INFO com.google.automation.BrowserStackBaseTest - Initializing WebDriver with type: browserstack
+[main] INFO com.google.automation.BrowserStackBaseTest - Setting up BrowserStack RemoteWebDriver
+[main] INFO com.google.automation.BrowserStackBaseTest - BrowserStack Hub URL: https://amaurimoraismann_qL3hsa:v81FXLTPVGqPrG8sJxuM@hub.browserstack.com/wd/hub
+[main] INFO com.google.automation.BrowserStackBaseTest - BrowserStack RemoteWebDriver initialized successfully
+[main] INFO com.google.automation.BrowserStackBaseTest - Session ID: 75a32044848d63f3e631eb64af0d39f19e1ec9d2
+[main] INFO com.google.automation.BrowserStackBaseTest - WebDriver initialized successfully with type: browserstack
+[main] INFO com.google.automation.GoogleSearchBrowserStackTest - Test setup completed with session ID: 75a32044848d63f3e631eb64af0d39f19e1ec9d2
+[main] INFO com.google.automation.GoogleSearchBrowserStackTest - Starting test: testBrowserStackGoogleSearch
+[main] INFO com.google.automation.GoogleSearchBrowserStackTest - Results Page Title: https://www.google.com/search?q=BrowserStack+Selenium&sca_esv=d44b221d688bac1f&source=hp&ei=A7w5aauFG8DekPIP5cH28Ac&iflsig=AOw8s4IAAAAAaTnKE-iJu5c-KuoZMGiGwH4s4UINarBM&ved=0ahUKEwjrku6o07ORAxVAL0QIHeWgHX4Q4dUDCBY&uact=5&oq=BrowserStack+Selenium&gs_lp=Egdnd3Mtd2l6IhVCcm93c2VyU3RhY2sgU2VsZW5pdW0yBRAAGIAEMgUQABiABDIFEAAYgAQyBhAAGBYYHjIGEAAYFhgeMgYQABgWGB4yCBAAGBYYChgeMgYQABgWGB4yBhAAGBYYHjIGEAAYFhgeSI8HUABYqQJwAHgAkAEBmAFXoAHnAqoBATW4AQPIAQD4AQGYAgSgArECwgIIEAAYgAQYsQPCAgsQABiABBixAxiDAZgDAJIHATSgB6cfsgcBNLgHsQLCBwUyLTMuMcgHGoAIAA&sclient=gws-wiz&sei=B7w5adzvCeWp5NoP1e6PqQY
+[main] INFO com.google.automation.GoogleSearchBrowserStackTest - PASSED: Search executed successfully
+]]></system-err>
+  </testcase>
+  <testcase name="testBrowserStackMultipleSearches" classname="com.google.automation.GoogleSearchBrowserStackTest" time="14.212">
+    <system-err><![CDATA[[main] INFO com.google.automation.BrowserStackBaseTest - BrowserStack session status updated: PASSED
+[main] INFO com.google.automation.GoogleSearchBrowserStackTest - Test PASSED: testBrowserStackGoogleSearch
+[main] INFO com.google.automation.BrowserStackBaseTest - Closing BrowserStack session: 75a32044848d63f3e631eb64af0d39f19e1ec9d2
+[main] INFO com.google.automation.BrowserStackBaseTest - WebDriver closed successfully
+[main] INFO com.google.automation.BrowserStackBaseTest - Closing BrowserStack session: null
+[main] INFO com.google.automation.BrowserStackBaseTest - WebDriver closed successfully
+[main] INFO com.google.automation.BrowserStackBaseTest - Initializing WebDriver with type: browserstack
+[main] INFO com.google.automation.BrowserStackBaseTest - Setting up BrowserStack RemoteWebDriver
+[main] INFO com.google.automation.BrowserStackBaseTest - BrowserStack Hub URL: https://amaurimoraismann_qL3hsa:v81FXLTPVGqPrG8sJxuM@hub.browserstack.com/wd/hub
+[main] INFO com.google.automation.BrowserStackBaseTest - BrowserStack RemoteWebDriver initialized successfully
+[main] INFO com.google.automation.BrowserStackBaseTest - Session ID: bb5e9ba50b75200035516c3c31d50eca90b7d928
+[main] INFO com.google.automation.BrowserStackBaseTest - WebDriver initialized successfully with type: browserstack
+[main] INFO com.google.automation.GoogleSearchBrowserStackTest - Test setup completed with session ID: bb5e9ba50b75200035516c3c31d50eca90b7d928
+[main] INFO com.google.automation.GoogleSearchBrowserStackTest - Starting test: testBrowserStackMultipleSearches
+[main] INFO com.google.automation.GoogleSearchBrowserStackTest - Search completed for: Java
+[main] INFO com.google.automation.GoogleSearchBrowserStackTest - Search completed for: Selenium
+[main] INFO com.google.automation.GoogleSearchBrowserStackTest - Search completed for: Testing
+[main] INFO com.google.automation.GoogleSearchBrowserStackTest - PASSED: Multiple searches executed successfully
+]]></system-err>
+  </testcase>
+  <testcase name="testBrowserStackPageLoadPerformance" classname="com.google.automation.GoogleSearchBrowserStackTest" time="1.343">
+    <system-err><![CDATA[[main] INFO com.google.automation.BrowserStackBaseTest - BrowserStack session status updated: PASSED
+[main] INFO com.google.automation.GoogleSearchBrowserStackTest - Test PASSED: testBrowserStackMultipleSearches
+[main] INFO com.google.automation.BrowserStackBaseTest - Closing BrowserStack session: bb5e9ba50b75200035516c3c31d50eca90b7d928
+[main] INFO com.google.automation.BrowserStackBaseTest - WebDriver closed successfully
+[main] INFO com.google.automation.BrowserStackBaseTest - Closing BrowserStack session: null
+[main] INFO com.google.automation.BrowserStackBaseTest - WebDriver closed successfully
+[main] INFO com.google.automation.BrowserStackBaseTest - Initializing WebDriver with type: browserstack
+[main] INFO com.google.automation.BrowserStackBaseTest - Setting up BrowserStack RemoteWebDriver
+[main] INFO com.google.automation.BrowserStackBaseTest - BrowserStack Hub URL: https://amaurimoraismann_qL3hsa:v81FXLTPVGqPrG8sJxuM@hub.browserstack.com/wd/hub
+[main] INFO com.google.automation.BrowserStackBaseTest - BrowserStack RemoteWebDriver initialized successfully
+[main] INFO com.google.automation.BrowserStackBaseTest - Session ID: 14eebba881ba9e887008acf05913f99100ffada2
+[main] INFO com.google.automation.BrowserStackBaseTest - WebDriver initialized successfully with type: browserstack
+[main] INFO com.google.automation.GoogleSearchBrowserStackTest - Test setup completed with session ID: 14eebba881ba9e887008acf05913f99100ffada2
+[main] INFO com.google.automation.GoogleSearchBrowserStackTest - Starting test: testBrowserStackPageLoadPerformance
+[main] INFO com.google.automation.GoogleSearchBrowserStackTest - Page load time: 1343 ms
+[main] INFO com.google.automation.GoogleSearchBrowserStackTest - PASSED: Page loaded within acceptable time
+]]></system-err>
+  </testcase>
+  <testcase name="testBrowserStackPageNavigation" classname="com.google.automation.GoogleSearchBrowserStackTest" time="5.877">
+    <system-err><![CDATA[[main] INFO com.google.automation.BrowserStackBaseTest - BrowserStack session status updated: PASSED
+[main] INFO com.google.automation.GoogleSearchBrowserStackTest - Test PASSED: testBrowserStackPageLoadPerformance
+[main] INFO com.google.automation.BrowserStackBaseTest - Closing BrowserStack session: 14eebba881ba9e887008acf05913f99100ffada2
+[main] INFO com.google.automation.BrowserStackBaseTest - WebDriver closed successfully
+[main] INFO com.google.automation.BrowserStackBaseTest - Closing BrowserStack session: null
+[main] INFO com.google.automation.BrowserStackBaseTest - WebDriver closed successfully
+[main] INFO com.google.automation.BrowserStackBaseTest - Initializing WebDriver with type: browserstack
+[main] INFO com.google.automation.BrowserStackBaseTest - Setting up BrowserStack RemoteWebDriver
+[main] INFO com.google.automation.BrowserStackBaseTest - BrowserStack Hub URL: https://amaurimoraismann_qL3hsa:v81FXLTPVGqPrG8sJxuM@hub.browserstack.com/wd/hub
+[main] INFO com.google.automation.BrowserStackBaseTest - BrowserStack RemoteWebDriver initialized successfully
+[main] INFO com.google.automation.BrowserStackBaseTest - Session ID: a3bfd51719712c80baa0fe01176f8311d1c9ddf8
+[main] INFO com.google.automation.BrowserStackBaseTest - WebDriver initialized successfully with type: browserstack
+[main] INFO com.google.automation.GoogleSearchBrowserStackTest - Test setup completed with session ID: a3bfd51719712c80baa0fe01176f8311d1c9ddf8
+[main] INFO com.google.automation.GoogleSearchBrowserStackTest - Starting test: testBrowserStackPageNavigation
+[main] INFO com.google.automation.GoogleSearchBrowserStackTest - Navigation test completed. Current URL: https://www.google.com/?zx=1765391410155&no_sw_cr=1
+[main] INFO com.google.automation.GoogleSearchBrowserStackTest - PASSED: Page navigation works correctly
+]]></system-err>
+  </testcase>
+  <testcase name="testBrowserStackSearchBoxProperties" classname="com.google.automation.GoogleSearchBrowserStackTest" time="3.688">
+    <system-err><![CDATA[[main] INFO com.google.automation.BrowserStackBaseTest - BrowserStack session status updated: PASSED
+[main] INFO com.google.automation.GoogleSearchBrowserStackTest - Test PASSED: testBrowserStackPageNavigation
+[main] INFO com.google.automation.BrowserStackBaseTest - Closing BrowserStack session: a3bfd51719712c80baa0fe01176f8311d1c9ddf8
+[main] INFO com.google.automation.BrowserStackBaseTest - WebDriver closed successfully
+[main] INFO com.google.automation.BrowserStackBaseTest - Closing BrowserStack session: null
+[main] INFO com.google.automation.BrowserStackBaseTest - WebDriver closed successfully
+[main] INFO com.google.automation.BrowserStackBaseTest - Initializing WebDriver with type: browserstack
+[main] INFO com.google.automation.BrowserStackBaseTest - Setting up BrowserStack RemoteWebDriver
+[main] INFO com.google.automation.BrowserStackBaseTest - BrowserStack Hub URL: https://amaurimoraismann_qL3hsa:v81FXLTPVGqPrG8sJxuM@hub.browserstack.com/wd/hub
+[main] INFO com.google.automation.BrowserStackBaseTest - BrowserStack RemoteWebDriver initialized successfully
+[main] INFO com.google.automation.BrowserStackBaseTest - Session ID: 57171b7614adff83ef3bf5b7274b406bcd79e265
+[main] INFO com.google.automation.BrowserStackBaseTest - WebDriver initialized successfully with type: browserstack
+[main] INFO com.google.automation.GoogleSearchBrowserStackTest - Test setup completed with session ID: 57171b7614adff83ef3bf5b7274b406bcd79e265
+[main] INFO com.google.automation.GoogleSearchBrowserStackTest - Starting test: testBrowserStackSearchBoxProperties
+[main] INFO com.google.automation.GoogleSearchBrowserStackTest - Search box placeholder: 
+[main] INFO com.google.automation.GoogleSearchBrowserStackTest - PASSED: Search box properties verified
 ]]></system-err>
   </testcase>
 </testsuite>

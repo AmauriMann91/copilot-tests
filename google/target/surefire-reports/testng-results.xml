@@ -1,300 +1,174 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="1" total="18" passed="17">
+<testng-results skipped="0" failed="0" ignored="1" total="8" passed="7">
   <reporter-output>
   </reporter-output>
-  <suite name="Google UI Tests" duration-ms="101802" started-at="2025-12-10T18:17:24Z" finished-at="2025-12-10T18:19:06Z">
+  <suite name="Surefire suite" duration-ms="90162" started-at="2025-12-10T18:28:55Z" finished-at="2025-12-10T18:30:25Z">
     <groups>
     </groups>
-    <test name="Google Search Tests" duration-ms="41033" started-at="2025-12-10T18:17:24Z" finished-at="2025-12-10T18:18:06Z">
-      <class name="com.google.automation.GoogleSearchTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.google.automation.GoogleSearchTest@5bcab519]" name="setUp" is-config="true" duration-ms="1933" started-at="2025-12-10T18:17:24Z" finished-at="2025-12-10T18:17:26Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="testGoogleLogoDisplayed()[pri:0, instance:com.google.automation.GoogleSearchTest@5bcab519]" name="testGoogleLogoDisplayed" duration-ms="650" started-at="2025-12-10T18:17:26Z" description="Verify Google logo is displayed on homepage" finished-at="2025-12-10T18:17:27Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testGoogleLogoDisplayed -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.google.automation.GoogleSearchTest@5bcab519]" name="tearDown" is-config="true" duration-ms="764" started-at="2025-12-10T18:17:27Z" finished-at="2025-12-10T18:17:28Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.google.automation.GoogleSearchTest@5bcab519]" name="setUp" is-config="true" duration-ms="702" started-at="2025-12-10T18:17:28Z" finished-at="2025-12-10T18:17:29Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="testGooglePageLoad()[pri:0, instance:com.google.automation.GoogleSearchTest@5bcab519]" name="testGooglePageLoad" duration-ms="703" started-at="2025-12-10T18:17:29Z" description="Verify Google homepage loads correctly" finished-at="2025-12-10T18:17:29Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testGooglePageLoad -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.google.automation.GoogleSearchTest@5bcab519]" name="tearDown" is-config="true" duration-ms="680" started-at="2025-12-10T18:17:29Z" finished-at="2025-12-10T18:17:30Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.google.automation.GoogleSearchTest@5bcab519]" name="setUp" is-config="true" duration-ms="669" started-at="2025-12-10T18:17:30Z" finished-at="2025-12-10T18:17:31Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="testGoogleSearch()[pri:0, instance:com.google.automation.GoogleSearchTest@5bcab519]" name="testGoogleSearch" duration-ms="3075" started-at="2025-12-10T18:17:31Z" description="Perform search and verify results" finished-at="2025-12-10T18:17:34Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testGoogleSearch -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.google.automation.GoogleSearchTest@5bcab519]" name="tearDown" is-config="true" duration-ms="788" started-at="2025-12-10T18:17:34Z" finished-at="2025-12-10T18:17:34Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.google.automation.GoogleSearchTest -->
-      <class name="com.google.automation.GoogleSearchRegressionTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.google.automation.GoogleSearchRegressionTest@e45f292]" name="setUp" is-config="true" duration-ms="741" started-at="2025-12-10T18:17:34Z" finished-at="2025-12-10T18:17:35Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="testRegressionBasicSearch()[pri:0, instance:com.google.automation.GoogleSearchRegressionTest@e45f292]" name="testRegressionBasicSearch" duration-ms="2047" started-at="2025-12-10T18:17:35Z" description="REGRESSION: Verify basic search execution" finished-at="2025-12-10T18:17:37Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testRegressionBasicSearch -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.google.automation.GoogleSearchRegressionTest@e45f292]" name="tearDown" is-config="true" duration-ms="678" started-at="2025-12-10T18:17:37Z" finished-at="2025-12-10T18:17:38Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.google.automation.GoogleSearchRegressionTest@e45f292]" name="setUp" is-config="true" duration-ms="726" started-at="2025-12-10T18:17:38Z" finished-at="2025-12-10T18:17:39Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="testRegressionHomepageAccessibility()[pri:0, instance:com.google.automation.GoogleSearchRegressionTest@e45f292]" name="testRegressionHomepageAccessibility" duration-ms="677" started-at="2025-12-10T18:17:39Z" description="REGRESSION: Verify Google homepage is accessible" finished-at="2025-12-10T18:17:39Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testRegressionHomepageAccessibility -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.google.automation.GoogleSearchRegressionTest@e45f292]" name="tearDown" is-config="true" duration-ms="683" started-at="2025-12-10T18:17:39Z" finished-at="2025-12-10T18:17:40Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.google.automation.GoogleSearchRegressionTest@e45f292]" name="setUp" is-config="true" duration-ms="676" started-at="2025-12-10T18:17:40Z" finished-at="2025-12-10T18:17:41Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="testRegressionPageStability()[pri:0, instance:com.google.automation.GoogleSearchRegressionTest@e45f292]" name="testRegressionPageStability" duration-ms="2719" started-at="2025-12-10T18:17:41Z" description="REGRESSION: Verify page stability" finished-at="2025-12-10T18:17:43Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testRegressionPageStability -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.google.automation.GoogleSearchRegressionTest@e45f292]" name="tearDown" is-config="true" duration-ms="670" started-at="2025-12-10T18:17:43Z" finished-at="2025-12-10T18:17:44Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.google.automation.GoogleSearchRegressionTest@e45f292]" name="setUp" is-config="true" duration-ms="695" started-at="2025-12-10T18:17:44Z" finished-at="2025-12-10T18:17:45Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="testRegressionResultNavigation()[pri:0, instance:com.google.automation.GoogleSearchRegressionTest@e45f292]" name="testRegressionResultNavigation" duration-ms="2986" started-at="2025-12-10T18:17:45Z" description="REGRESSION: Verify search result navigation" finished-at="2025-12-10T18:17:48Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testRegressionResultNavigation -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.google.automation.GoogleSearchRegressionTest@e45f292]" name="tearDown" is-config="true" duration-ms="653" started-at="2025-12-10T18:17:48Z" finished-at="2025-12-10T18:17:48Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.google.automation.GoogleSearchRegressionTest@e45f292]" name="setUp" is-config="true" duration-ms="720" started-at="2025-12-10T18:17:48Z" finished-at="2025-12-10T18:17:49Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="testRegressionSearchBoxPresent()[pri:0, instance:com.google.automation.GoogleSearchRegressionTest@e45f292]" name="testRegressionSearchBoxPresent" duration-ms="10044" started-at="2025-12-10T18:17:49Z" description="REGRESSION: Verify search box functionality" finished-at="2025-12-10T18:17:59Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testRegressionSearchBoxPresent -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.google.automation.GoogleSearchRegressionTest@e45f292]" name="tearDown" is-config="true" duration-ms="704" started-at="2025-12-10T18:17:59Z" finished-at="2025-12-10T18:18:00Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.google.automation.GoogleSearchRegressionTest@e45f292]" name="setUp" is-config="true" duration-ms="691" started-at="2025-12-10T18:18:00Z" finished-at="2025-12-10T18:18:01Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="testRegressionSearchInputHandling()[pri:0, instance:com.google.automation.GoogleSearchRegressionTest@e45f292]" name="testRegressionSearchInputHandling" duration-ms="890" started-at="2025-12-10T18:18:01Z" description="REGRESSION: Verify search input handling" finished-at="2025-12-10T18:18:01Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testRegressionSearchInputHandling -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.google.automation.GoogleSearchRegressionTest@e45f292]" name="tearDown" is-config="true" duration-ms="667" started-at="2025-12-10T18:18:01Z" finished-at="2025-12-10T18:18:02Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.google.automation.GoogleSearchRegressionTest@e45f292]" name="setUp" is-config="true" duration-ms="712" started-at="2025-12-10T18:18:02Z" finished-at="2025-12-10T18:18:03Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="testRegressionSearchResultsDisplayed()[pri:0, instance:com.google.automation.GoogleSearchRegressionTest@e45f292]" name="testRegressionSearchResultsDisplayed" duration-ms="1985" started-at="2025-12-10T18:18:03Z" description="REGRESSION: Verify search results are displayed" finished-at="2025-12-10T18:18:05Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testRegressionSearchResultsDisplayed -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.google.automation.GoogleSearchRegressionTest@e45f292]" name="tearDown" is-config="true" duration-ms="701" started-at="2025-12-10T18:18:05Z" finished-at="2025-12-10T18:18:06Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.google.automation.GoogleSearchRegressionTest -->
-    </test> <!-- Google Search Tests -->
-    <test name="BrowserStack Tests" duration-ms="101802" started-at="2025-12-10T18:17:24Z" finished-at="2025-12-10T18:19:06Z">
+    <test name="Surefire test" duration-ms="90162" started-at="2025-12-10T18:28:55Z" finished-at="2025-12-10T18:30:25Z">
       <class name="com.google.automation.GoogleSearchBrowserStackTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.google.automation.GoogleSearchBrowserStackTest@4fe3c938]" name="setUp" is-config="true" duration-ms="7784" started-at="2025-12-10T18:17:24Z" finished-at="2025-12-10T18:17:32Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.google.automation.GoogleSearchBrowserStackTest@31a5c39e]" name="setUp" is-config="true" duration-ms="8247" started-at="2025-12-10T18:28:55Z" finished-at="2025-12-10T18:29:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="testBrowserStackGoogleLogo()[pri:0, instance:com.google.automation.GoogleSearchBrowserStackTest@4fe3c938]" name="testBrowserStackGoogleLogo" duration-ms="2839" started-at="2025-12-10T18:17:32Z" description="BrowserStack: Verify Google logo is displayed" finished-at="2025-12-10T18:17:35Z">
+        <test-method status="PASS" signature="testBrowserStackGoogleLogo()[pri:0, instance:com.google.automation.GoogleSearchBrowserStackTest@31a5c39e]" name="testBrowserStackGoogleLogo" duration-ms="3233" started-at="2025-12-10T18:29:03Z" description="BrowserStack: Verify Google logo is displayed" finished-at="2025-12-10T18:29:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testBrowserStackGoogleLogo -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.google.automation.GoogleSearchBrowserStackTest@4fe3c938]" name="tearDown" is-config="true" duration-ms="1776" started-at="2025-12-10T18:17:35Z" finished-at="2025-12-10T18:17:37Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.google.automation.GoogleSearchBrowserStackTest@31a5c39e]" name="tearDown" is-config="true" duration-ms="1197" started-at="2025-12-10T18:29:07Z" finished-at="2025-12-10T18:29:08Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=testBrowserStackGoogleLogo status=SUCCESS method=GoogleSearchBrowserStackTest.testBrowserStackGoogleLogo()[pri:0, instance:com.google.automation.GoogleSearchBrowserStackTest@4fe3c938] output={null}]]]>
+                <![CDATA[[TestResult name=testBrowserStackGoogleLogo status=SUCCESS method=GoogleSearchBrowserStackTest.testBrowserStackGoogleLogo()[pri:0, instance:com.google.automation.GoogleSearchBrowserStackTest@31a5c39e] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.google.automation.GoogleSearchBrowserStackTest@4fe3c938]" name="tearDown" is-config="true" duration-ms="0" started-at="2025-12-10T18:17:37Z" finished-at="2025-12-10T18:17:37Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.google.automation.GoogleSearchBrowserStackTest@4fe3c938]" name="setUp" is-config="true" duration-ms="5901" started-at="2025-12-10T18:17:37Z" finished-at="2025-12-10T18:17:43Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.google.automation.GoogleSearchBrowserStackTest@31a5c39e]" name="setUp" is-config="true" duration-ms="5300" started-at="2025-12-10T18:29:08Z" finished-at="2025-12-10T18:29:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="testBrowserStackGooglePageLoad()[pri:0, instance:com.google.automation.GoogleSearchBrowserStackTest@4fe3c938]" name="testBrowserStackGooglePageLoad" duration-ms="2701" started-at="2025-12-10T18:17:43Z" description="BrowserStack: Verify Google homepage loads" finished-at="2025-12-10T18:17:45Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.google.automation.GoogleSearchBrowserStackTest@31a5c39e]" name="tearDown" is-config="true" duration-ms="0" started-at="2025-12-10T18:29:08Z" finished-at="2025-12-10T18:29:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="testBrowserStackGooglePageLoad()[pri:0, instance:com.google.automation.GoogleSearchBrowserStackTest@31a5c39e]" name="testBrowserStackGooglePageLoad" duration-ms="2529" started-at="2025-12-10T18:29:13Z" description="BrowserStack: Verify Google homepage loads" finished-at="2025-12-10T18:29:16Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testBrowserStackGooglePageLoad -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.google.automation.GoogleSearchBrowserStackTest@4fe3c938]" name="tearDown" is-config="true" duration-ms="1866" started-at="2025-12-10T18:17:45Z" finished-at="2025-12-10T18:17:47Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.google.automation.GoogleSearchBrowserStackTest@31a5c39e]" name="tearDown" is-config="true" duration-ms="1270" started-at="2025-12-10T18:29:16Z" finished-at="2025-12-10T18:29:17Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=testBrowserStackGooglePageLoad status=SUCCESS method=GoogleSearchBrowserStackTest.testBrowserStackGooglePageLoad()[pri:0, instance:com.google.automation.GoogleSearchBrowserStackTest@4fe3c938] output={null}]]]>
+                <![CDATA[[TestResult name=testBrowserStackGooglePageLoad status=SUCCESS method=GoogleSearchBrowserStackTest.testBrowserStackGooglePageLoad()[pri:0, instance:com.google.automation.GoogleSearchBrowserStackTest@31a5c39e] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.google.automation.GoogleSearchBrowserStackTest@4fe3c938]" name="tearDown" is-config="true" duration-ms="0" started-at="2025-12-10T18:17:47Z" finished-at="2025-12-10T18:17:47Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.google.automation.GoogleSearchBrowserStackTest@31a5c39e]" name="tearDown" is-config="true" duration-ms="0" started-at="2025-12-10T18:29:17Z" finished-at="2025-12-10T18:29:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.google.automation.GoogleSearchBrowserStackTest@4fe3c938]" name="setUp" is-config="true" duration-ms="6737" started-at="2025-12-10T18:17:47Z" finished-at="2025-12-10T18:17:54Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.google.automation.GoogleSearchBrowserStackTest@31a5c39e]" name="setUp" is-config="true" duration-ms="6685" started-at="2025-12-10T18:29:17Z" finished-at="2025-12-10T18:29:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="testBrowserStackGoogleSearch()[pri:0, instance:com.google.automation.GoogleSearchBrowserStackTest@4fe3c938]" name="testBrowserStackGoogleSearch" duration-ms="8036" started-at="2025-12-10T18:17:54Z" description="BrowserStack: Perform search and verify results" finished-at="2025-12-10T18:18:02Z">
+        <test-method status="PASS" signature="testBrowserStackGoogleSearch()[pri:0, instance:com.google.automation.GoogleSearchBrowserStackTest@31a5c39e]" name="testBrowserStackGoogleSearch" duration-ms="6811" started-at="2025-12-10T18:29:24Z" description="BrowserStack: Perform search and verify results" finished-at="2025-12-10T18:29:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testBrowserStackGoogleSearch -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.google.automation.GoogleSearchBrowserStackTest@4fe3c938]" name="tearDown" is-config="true" duration-ms="1899" started-at="2025-12-10T18:18:02Z" finished-at="2025-12-10T18:18:04Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.google.automation.GoogleSearchBrowserStackTest@31a5c39e]" name="tearDown" is-config="true" duration-ms="1548" started-at="2025-12-10T18:29:30Z" finished-at="2025-12-10T18:29:32Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=testBrowserStackGoogleSearch status=SUCCESS method=GoogleSearchBrowserStackTest.testBrowserStackGoogleSearch()[pri:0, instance:com.google.automation.GoogleSearchBrowserStackTest@4fe3c938] output={null}]]]>
+                <![CDATA[[TestResult name=testBrowserStackGoogleSearch status=SUCCESS method=GoogleSearchBrowserStackTest.testBrowserStackGoogleSearch()[pri:0, instance:com.google.automation.GoogleSearchBrowserStackTest@31a5c39e] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.google.automation.GoogleSearchBrowserStackTest@4fe3c938]" name="tearDown" is-config="true" duration-ms="0" started-at="2025-12-10T18:18:04Z" finished-at="2025-12-10T18:18:04Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.google.automation.GoogleSearchBrowserStackTest@31a5c39e]" name="tearDown" is-config="true" duration-ms="0" started-at="2025-12-10T18:29:32Z" finished-at="2025-12-10T18:29:32Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.google.automation.GoogleSearchBrowserStackTest@4fe3c938]" name="setUp" is-config="true" duration-ms="7552" started-at="2025-12-10T18:18:04Z" finished-at="2025-12-10T18:18:12Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.google.automation.GoogleSearchBrowserStackTest@31a5c39e]" name="setUp" is-config="true" duration-ms="5420" started-at="2025-12-10T18:29:32Z" finished-at="2025-12-10T18:29:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="testBrowserStackMultipleSearches()[pri:0, instance:com.google.automation.GoogleSearchBrowserStackTest@4fe3c938]" name="testBrowserStackMultipleSearches" duration-ms="20642" started-at="2025-12-10T18:18:12Z" description="BrowserStack: Test multiple sequential searches" finished-at="2025-12-10T18:18:32Z">
+        <test-method status="PASS" signature="testBrowserStackMultipleSearches()[pri:0, instance:com.google.automation.GoogleSearchBrowserStackTest@31a5c39e]" name="testBrowserStackMultipleSearches" duration-ms="14208" started-at="2025-12-10T18:29:37Z" description="BrowserStack: Test multiple sequential searches" finished-at="2025-12-10T18:29:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testBrowserStackMultipleSearches -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.google.automation.GoogleSearchBrowserStackTest@4fe3c938]" name="tearDown" is-config="true" duration-ms="1481" started-at="2025-12-10T18:18:32Z" finished-at="2025-12-10T18:18:34Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.google.automation.GoogleSearchBrowserStackTest@31a5c39e]" name="tearDown" is-config="true" duration-ms="1253" started-at="2025-12-10T18:29:52Z" finished-at="2025-12-10T18:29:53Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=testBrowserStackMultipleSearches status=SUCCESS method=GoogleSearchBrowserStackTest.testBrowserStackMultipleSearches()[pri:0, instance:com.google.automation.GoogleSearchBrowserStackTest@4fe3c938] output={null}]]]>
+                <![CDATA[[TestResult name=testBrowserStackMultipleSearches status=SUCCESS method=GoogleSearchBrowserStackTest.testBrowserStackMultipleSearches()[pri:0, instance:com.google.automation.GoogleSearchBrowserStackTest@31a5c39e] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.google.automation.GoogleSearchBrowserStackTest@4fe3c938]" name="setUp" is-config="true" duration-ms="5913" started-at="2025-12-10T18:18:34Z" finished-at="2025-12-10T18:18:40Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.google.automation.GoogleSearchBrowserStackTest@4fe3c938]" name="tearDown" is-config="true" duration-ms="0" started-at="2025-12-10T18:18:34Z" finished-at="2025-12-10T18:18:34Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.google.automation.GoogleSearchBrowserStackTest@31a5c39e]" name="tearDown" is-config="true" duration-ms="0" started-at="2025-12-10T18:29:53Z" finished-at="2025-12-10T18:29:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="testBrowserStackPageLoadPerformance()[pri:0, instance:com.google.automation.GoogleSearchBrowserStackTest@4fe3c938]" name="testBrowserStackPageLoadPerformance" duration-ms="2671" started-at="2025-12-10T18:18:40Z" description="BrowserStack: Test page load performance" finished-at="2025-12-10T18:18:42Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.google.automation.GoogleSearchBrowserStackTest@31a5c39e]" name="setUp" is-config="true" duration-ms="6402" started-at="2025-12-10T18:29:53Z" finished-at="2025-12-10T18:29:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testBrowserStackPageLoadPerformance()[pri:0, instance:com.google.automation.GoogleSearchBrowserStackTest@31a5c39e]" name="testBrowserStackPageLoadPerformance" duration-ms="1343" started-at="2025-12-10T18:29:59Z" description="BrowserStack: Test page load performance" finished-at="2025-12-10T18:30:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testBrowserStackPageLoadPerformance -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.google.automation.GoogleSearchBrowserStackTest@4fe3c938]" name="tearDown" is-config="true" duration-ms="1233" started-at="2025-12-10T18:18:42Z" finished-at="2025-12-10T18:18:44Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.google.automation.GoogleSearchBrowserStackTest@31a5c39e]" name="tearDown" is-config="true" duration-ms="1508" started-at="2025-12-10T18:30:01Z" finished-at="2025-12-10T18:30:02Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=testBrowserStackPageLoadPerformance status=SUCCESS method=GoogleSearchBrowserStackTest.testBrowserStackPageLoadPerformance()[pri:0, instance:com.google.automation.GoogleSearchBrowserStackTest@4fe3c938] output={null}]]]>
+                <![CDATA[[TestResult name=testBrowserStackPageLoadPerformance status=SUCCESS method=GoogleSearchBrowserStackTest.testBrowserStackPageLoadPerformance()[pri:0, instance:com.google.automation.GoogleSearchBrowserStackTest@31a5c39e] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.google.automation.GoogleSearchBrowserStackTest@4fe3c938]" name="setUp" is-config="true" duration-ms="5348" started-at="2025-12-10T18:18:44Z" finished-at="2025-12-10T18:18:49Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.google.automation.GoogleSearchBrowserStackTest@4fe3c938]" name="tearDown" is-config="true" duration-ms="0" started-at="2025-12-10T18:18:44Z" finished-at="2025-12-10T18:18:44Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.google.automation.GoogleSearchBrowserStackTest@31a5c39e]" name="tearDown" is-config="true" duration-ms="1" started-at="2025-12-10T18:30:02Z" finished-at="2025-12-10T18:30:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="testBrowserStackPageNavigation()[pri:0, instance:com.google.automation.GoogleSearchBrowserStackTest@4fe3c938]" name="testBrowserStackPageNavigation" duration-ms="6802" started-at="2025-12-10T18:18:49Z" description="BrowserStack: Test page navigation" finished-at="2025-12-10T18:18:56Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.google.automation.GoogleSearchBrowserStackTest@31a5c39e]" name="setUp" is-config="true" duration-ms="6497" started-at="2025-12-10T18:30:02Z" finished-at="2025-12-10T18:30:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testBrowserStackPageNavigation()[pri:0, instance:com.google.automation.GoogleSearchBrowserStackTest@31a5c39e]" name="testBrowserStackPageNavigation" duration-ms="5868" started-at="2025-12-10T18:30:09Z" description="BrowserStack: Test page navigation" finished-at="2025-12-10T18:30:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testBrowserStackPageNavigation -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.google.automation.GoogleSearchBrowserStackTest@4fe3c938]" name="tearDown" is-config="true" duration-ms="1563" started-at="2025-12-10T18:18:56Z" finished-at="2025-12-10T18:18:57Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.google.automation.GoogleSearchBrowserStackTest@31a5c39e]" name="tearDown" is-config="true" duration-ms="1391" started-at="2025-12-10T18:30:14Z" finished-at="2025-12-10T18:30:16Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=testBrowserStackPageNavigation status=SUCCESS method=GoogleSearchBrowserStackTest.testBrowserStackPageNavigation()[pri:0, instance:com.google.automation.GoogleSearchBrowserStackTest@4fe3c938] output={null}]]]>
+                <![CDATA[[TestResult name=testBrowserStackPageNavigation status=SUCCESS method=GoogleSearchBrowserStackTest.testBrowserStackPageNavigation()[pri:0, instance:com.google.automation.GoogleSearchBrowserStackTest@31a5c39e] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.google.automation.GoogleSearchBrowserStackTest@4fe3c938]" name="tearDown" is-config="true" duration-ms="0" started-at="2025-12-10T18:18:57Z" finished-at="2025-12-10T18:18:57Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.google.automation.GoogleSearchBrowserStackTest@31a5c39e]" name="tearDown" is-config="true" duration-ms="1" started-at="2025-12-10T18:30:16Z" finished-at="2025-12-10T18:30:16Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.google.automation.GoogleSearchBrowserStackTest@4fe3c938]" name="setUp" is-config="true" duration-ms="4078" started-at="2025-12-10T18:18:57Z" finished-at="2025-12-10T18:19:01Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.google.automation.GoogleSearchBrowserStackTest@31a5c39e]" name="setUp" is-config="true" duration-ms="4052" started-at="2025-12-10T18:30:16Z" finished-at="2025-12-10T18:30:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="testBrowserStackSearchBoxProperties()[pri:0, instance:com.google.automation.GoogleSearchBrowserStackTest@4fe3c938]" name="testBrowserStackSearchBoxProperties" duration-ms="3523" started-at="2025-12-10T18:19:01Z" description="BrowserStack: Verify search box properties" finished-at="2025-12-10T18:19:05Z">
+        <test-method status="PASS" signature="testBrowserStackSearchBoxProperties()[pri:0, instance:com.google.automation.GoogleSearchBrowserStackTest@31a5c39e]" name="testBrowserStackSearchBoxProperties" duration-ms="3688" started-at="2025-12-10T18:30:20Z" description="BrowserStack: Verify search box properties" finished-at="2025-12-10T18:30:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testBrowserStackSearchBoxProperties -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.google.automation.GoogleSearchBrowserStackTest@4fe3c938]" name="tearDown" is-config="true" duration-ms="1454" started-at="2025-12-10T18:19:05Z" finished-at="2025-12-10T18:19:06Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.google.automation.GoogleSearchBrowserStackTest@31a5c39e]" name="tearDown" is-config="true" duration-ms="1657" started-at="2025-12-10T18:30:24Z" finished-at="2025-12-10T18:30:25Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=testBrowserStackSearchBoxProperties status=SUCCESS method=GoogleSearchBrowserStackTest.testBrowserStackSearchBoxProperties()[pri:0, instance:com.google.automation.GoogleSearchBrowserStackTest@4fe3c938] output={null}]]]>
+                <![CDATA[[TestResult name=testBrowserStackSearchBoxProperties status=SUCCESS method=GoogleSearchBrowserStackTest.testBrowserStackSearchBoxProperties()[pri:0, instance:com.google.automation.GoogleSearchBrowserStackTest@31a5c39e] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.google.automation.GoogleSearchBrowserStackTest@4fe3c938]" name="tearDown" is-config="true" duration-ms="0" started-at="2025-12-10T18:19:06Z" finished-at="2025-12-10T18:19:06Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.google.automation.GoogleSearchBrowserStackTest@31a5c39e]" name="tearDown" is-config="true" duration-ms="0" started-at="2025-12-10T18:30:25Z" finished-at="2025-12-10T18:30:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.google.automation.GoogleSearchBrowserStackTest -->
-    </test> <!-- BrowserStack Tests -->
-  </suite> <!-- Google UI Tests -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
 </testng-results>

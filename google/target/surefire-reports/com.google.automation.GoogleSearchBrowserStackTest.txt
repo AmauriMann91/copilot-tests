@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.google.automation.GoogleSearchBrowserStackTest
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 90.51 s -- in com.google.automation.GoogleSearchBrowserStackTest
