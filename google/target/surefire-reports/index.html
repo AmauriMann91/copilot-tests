@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+      <span class="top-banner-font-1">1 suite</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -38,7 +38,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-Google_UI_Tests">
-              <span class="suite-name border-failed">Google UI Tests</span>
+              <span class="suite-name border-passed">Google UI Tests</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -91,21 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">18 methods, 1 failed,   17 passed</span>
-                  </li>
-                  <li>
-                    <span class="method-list-title failed">Failed methods</span>
-                    <span class="show-or-hide-methods failed">
-                      <a href="#" panel-name="suite-Google_UI_Tests" class="hide-methods failed suite-Google_UI_Tests"> (hide)</a> <!-- hide-methods failed suite-Google_UI_Tests -->
-                      <a href="#" panel-name="suite-Google_UI_Tests" class="show-methods failed suite-Google_UI_Tests"> (show)</a> <!-- show-methods failed suite-Google_UI_Tests -->
-                    </span>
-                    <div class="method-list-content failed suite-Google_UI_Tests">
-                      <span>
-                        <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Google_UI_Tests" title="com.google.automation.GoogleSearchBrowserStackTest" hash-for-method="testBrowserStackSearchResults">testBrowserStackSearchResults</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content failed suite-Google_UI_Tests -->
+                    <span class="method-stats">17 methods,   17 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -211,56 +197,6 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Google_UI_Tests" class="panel Google_UI_Tests">
-          <div class="suite-Google_UI_Tests-class-failed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
-              <span class="class-name">com.google.automation.GoogleSearchBrowserStackTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="testBrowserStackSearchResults">
-                  </a> <!-- testBrowserStackSearchResults -->
-                  <span class="method-name">testBrowserStackSearchResults</span>
-                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.xpath: //div[contains(@class, &apos;search&apos;)] (tried for 10 second(s) with 500 milliseconds interval)
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:230)
-	at com.google.automation.GoogleSearchBrowserStackTest.testBrowserStackSearchResults(GoogleSearchBrowserStackTest.java:131)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-	at java.lang.Thread.run(Thread.java:748)
-Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[contains(@class, &apos;search&apos;)]&quot;}
-  (Session info: chrome=143.0.7499.41)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: &apos;4.10.0&apos;, revision: &apos;c14d967899&apos;
-System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_202&apos;
-Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Command: [cec2e43245535b9be6dad56c7a96d6bda75a9ba9, findElement {using=xpath, value=//div[contains(@class, &apos;search&apos;)]}]
-Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 143.0.7499.41, chrome: {chromedriverVersion: 143.0.7499.40 (c23ff452476d..., userDataDir: C:\Windows\proxy\scoped_dir...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:9222}, goog:processID: 3392, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: cec2e43245535b9be6dad56c7a9...}
-Session ID: cec2e43245535b9be6dad56c7a96d6bda75a9ba9
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:199)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:132)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
-	at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:51)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:531)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
-	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:171)
-	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:168)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:205)
-	... 21 more
-... Removed 20 stack frames
-</div> <!-- stack-trace -->
-                  <em>
-(BrowserStack: Verify search results displayed)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Google_UI_Tests-class-failed -->
           <div class="suite-Google_UI_Tests-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -448,6 +384,9 @@ Session ID: cec2e43245535b9be6dad56c7a96d6bda75a9ba9
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
 &lt;suite thread-count=&quot;2&quot; verbose=&quot;0&quot; name=&quot;Google UI Tests&quot; parallel=&quot;tests&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.google.automation.TestResultsListener&quot;/&gt;
+  &lt;/listeners&gt;
   &lt;test thread-count=&quot;2&quot; verbose=&quot;0&quot; name=&quot;Google Search Tests&quot; parallel=&quot;tests&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;com.google.automation.GoogleSearchTest&quot;/&gt;
@@ -499,79 +438,75 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(18);
+data.addRows(17);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'testBrowserStackSearchResults')
+data.setCell(0, 1, 'testBrowserStackMultipleSearches')
 data.setCell(0, 2, 'com.google.automation.GoogleSearchBrowserStackTest')
-data.setCell(0, 3, 25473);
+data.setCell(0, 3, 20642);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'testBrowserStackMultipleSearches')
-data.setCell(1, 2, 'com.google.automation.GoogleSearchBrowserStackTest')
-data.setCell(1, 3, 14708);
+data.setCell(1, 1, 'testRegressionSearchBoxPresent')
+data.setCell(1, 2, 'com.google.automation.GoogleSearchRegressionTest')
+data.setCell(1, 3, 10044);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'testBrowserStackPageNavigation')
+data.setCell(2, 1, 'testBrowserStackGoogleSearch')
 data.setCell(2, 2, 'com.google.automation.GoogleSearchBrowserStackTest')
-data.setCell(2, 3, 8460);
+data.setCell(2, 3, 8036);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'testBrowserStackGoogleSearch')
+data.setCell(3, 1, 'testBrowserStackPageNavigation')
 data.setCell(3, 2, 'com.google.automation.GoogleSearchBrowserStackTest')
-data.setCell(3, 3, 5053);
+data.setCell(3, 3, 6802);
 data.setCell(4, 0, 4)
 data.setCell(4, 1, 'testBrowserStackSearchBoxProperties')
 data.setCell(4, 2, 'com.google.automation.GoogleSearchBrowserStackTest')
-data.setCell(4, 3, 4164);
+data.setCell(4, 3, 3523);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'testBrowserStackGoogleLogo')
-data.setCell(5, 2, 'com.google.automation.GoogleSearchBrowserStackTest')
-data.setCell(5, 3, 3404);
+data.setCell(5, 1, 'testGoogleSearch')
+data.setCell(5, 2, 'com.google.automation.GoogleSearchTest')
+data.setCell(5, 3, 3075);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'testGoogleSearch')
-data.setCell(6, 2, 'com.google.automation.GoogleSearchTest')
-data.setCell(6, 3, 3152);
+data.setCell(6, 1, 'testRegressionResultNavigation')
+data.setCell(6, 2, 'com.google.automation.GoogleSearchRegressionTest')
+data.setCell(6, 3, 2986);
 data.setCell(7, 0, 7)
-data.setCell(7, 1, 'testRegressionResultNavigation')
-data.setCell(7, 2, 'com.google.automation.GoogleSearchRegressionTest')
-data.setCell(7, 3, 3074);
+data.setCell(7, 1, 'testBrowserStackGoogleLogo')
+data.setCell(7, 2, 'com.google.automation.GoogleSearchBrowserStackTest')
+data.setCell(7, 3, 2839);
 data.setCell(8, 0, 8)
 data.setCell(8, 1, 'testRegressionPageStability')
 data.setCell(8, 2, 'com.google.automation.GoogleSearchRegressionTest')
-data.setCell(8, 3, 2660);
+data.setCell(8, 3, 2719);
 data.setCell(9, 0, 9)
-data.setCell(9, 1, 'testRegressionSearchResultsDisplayed')
-data.setCell(9, 2, 'com.google.automation.GoogleSearchRegressionTest')
-data.setCell(9, 3, 2411);
+data.setCell(9, 1, 'testBrowserStackGooglePageLoad')
+data.setCell(9, 2, 'com.google.automation.GoogleSearchBrowserStackTest')
+data.setCell(9, 3, 2701);
 data.setCell(10, 0, 10)
-data.setCell(10, 1, 'testBrowserStackGooglePageLoad')
+data.setCell(10, 1, 'testBrowserStackPageLoadPerformance')
 data.setCell(10, 2, 'com.google.automation.GoogleSearchBrowserStackTest')
-data.setCell(10, 3, 2321);
+data.setCell(10, 3, 2671);
 data.setCell(11, 0, 11)
 data.setCell(11, 1, 'testRegressionBasicSearch')
 data.setCell(11, 2, 'com.google.automation.GoogleSearchRegressionTest')
-data.setCell(11, 3, 2027);
+data.setCell(11, 3, 2047);
 data.setCell(12, 0, 12)
-data.setCell(12, 1, 'testRegressionSearchInputHandling')
+data.setCell(12, 1, 'testRegressionSearchResultsDisplayed')
 data.setCell(12, 2, 'com.google.automation.GoogleSearchRegressionTest')
-data.setCell(12, 3, 912);
+data.setCell(12, 3, 1985);
 data.setCell(13, 0, 13)
-data.setCell(13, 1, 'testGoogleLogoDisplayed')
-data.setCell(13, 2, 'com.google.automation.GoogleSearchTest')
-data.setCell(13, 3, 899);
+data.setCell(13, 1, 'testRegressionSearchInputHandling')
+data.setCell(13, 2, 'com.google.automation.GoogleSearchRegressionTest')
+data.setCell(13, 3, 890);
 data.setCell(14, 0, 14)
-data.setCell(14, 1, 'testRegressionSearchBoxPresent')
-data.setCell(14, 2, 'com.google.automation.GoogleSearchRegressionTest')
-data.setCell(14, 3, 835);
+data.setCell(14, 1, 'testGooglePageLoad')
+data.setCell(14, 2, 'com.google.automation.GoogleSearchTest')
+data.setCell(14, 3, 703);
 data.setCell(15, 0, 15)
 data.setCell(15, 1, 'testRegressionHomepageAccessibility')
 data.setCell(15, 2, 'com.google.automation.GoogleSearchRegressionTest')
-data.setCell(15, 3, 824);
+data.setCell(15, 3, 677);
 data.setCell(16, 0, 16)
-data.setCell(16, 1, 'testGooglePageLoad')
+data.setCell(16, 1, 'testGoogleLogoDisplayed')
 data.setCell(16, 2, 'com.google.automation.GoogleSearchTest')
-data.setCell(16, 3, 732);
-data.setCell(17, 0, 17)
-data.setCell(17, 1, 'testBrowserStackPageLoadPerformance')
-data.setCell(17, 2, 'com.google.automation.GoogleSearchBrowserStackTest')
-data.setCell(17, 3, 425);
+data.setCell(16, 3, 650);
 window.suiteTableData['Google_UI_Tests']= { tableData: data, tableDiv: 'times-div-Google_UI_Tests'}
 return data;
 }
@@ -591,9 +526,16 @@ return data;
         </div> <!-- panel -->
         <div panel-name="ignored-methods-Google_UI_Tests" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">0 ignored methods</span>
+            <span class="header-content">1 ignored method</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.google.automation.GoogleSearchBrowserStackTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">testBrowserStackSearchResults</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="chronological-Google_UI_Tests" class="panel">
@@ -619,287 +561,281 @@ return data;
               <div class="chronological-class-name">com.google.automation.GoogleSearchTest</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">testGoogleLogoDisplayed</span>
-                <span class="method-start">1847 ms</span>
+                <span class="method-start">1933 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">2746 ms</span>
+                <span class="method-start">2583 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">3416 ms</span>
+                <span class="method-start">3348 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testGooglePageLoad</span>
-                <span class="method-start">4097 ms</span>
+                <span class="method-start">4050 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">4829 ms</span>
+                <span class="method-start">4753 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">5531 ms</span>
+                <span class="method-start">5433 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testGoogleSearch</span>
-                <span class="method-start">6189 ms</span>
+                <span class="method-start">6102 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.google.automation.GoogleSearchBrowserStackTest</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">testBrowserStackGoogleLogo</span>
-                <span class="method-start">7836 ms</span>
+                <span class="method-start">7784 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.google.automation.GoogleSearchTest</div> <!-- chronological-class-name -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">9341 ms</span>
+                <span class="method-start">9178 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.google.automation.GoogleSearchRegressionTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">10000 ms</span>
+                <span class="method-start">9967 ms</span>
               </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">testRegressionBasicSearch</span>
-                <span class="method-start">10675 ms</span>
-              </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.google.automation.GoogleSearchBrowserStackTest</div> <!-- chronological-class-name -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown([TestResult name=testBrowserStackGoogleLogo status=SUCCESS method=GoogleSearchBrowserStackTest.testB...)</span>
-                <span class="method-start">11240 ms</span>
+                <span class="method-start">10623 ms</span>
               </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.google.automation.GoogleSearchRegressionTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testRegressionBasicSearch</span>
+                <span class="method-start">10708 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.google.automation.GoogleSearchBrowserStackTest</div> <!-- chronological-class-name -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">12411 ms</span>
+                <span class="method-start">12399 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">12412 ms</span>
+                <span class="method-start">12399 ms</span>
               </div> <!-- configuration-method before -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.google.automation.GoogleSearchRegressionTest</div> <!-- chronological-class-name -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">12702 ms</span>
+                <span class="method-start">12755 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">13365 ms</span>
+                <span class="method-start">13433 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testRegressionHomepageAccessibility</span>
-                <span class="method-start">14020 ms</span>
+                <span class="method-start">14159 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">14844 ms</span>
+                <span class="method-start">14836 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">15517 ms</span>
+                <span class="method-start">15519 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testRegressionPageStability</span>
-                <span class="method-start">16191 ms</span>
+                <span class="method-start">16195 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.google.automation.GoogleSearchBrowserStackTest</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">testBrowserStackGooglePageLoad</span>
-                <span class="method-start">17501 ms</span>
+                <span class="method-start">18300 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.google.automation.GoogleSearchRegressionTest</div> <!-- chronological-class-name -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">18851 ms</span>
+                <span class="method-start">18914 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">19517 ms</span>
+                <span class="method-start">19584 ms</span>
               </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testRegressionResultNavigation</span>
+                <span class="method-start">20279 ms</span>
+              </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.google.automation.GoogleSearchBrowserStackTest</div> <!-- chronological-class-name -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown([TestResult name=testBrowserStackGooglePageLoad status=SUCCESS method=GoogleSearchBrowserStackTest.t...)</span>
-                <span class="method-start">19822 ms</span>
+                <span class="method-start">21001 ms</span>
               </div> <!-- configuration-method after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">com.google.automation.GoogleSearchRegressionTest</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <span class="method-name">testRegressionResultNavigation</span>
-                <span class="method-start">20179 ms</span>
-              </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">com.google.automation.GoogleSearchBrowserStackTest</div> <!-- chronological-class-name -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">21525 ms</span>
+                <span class="method-start">22867 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">21526 ms</span>
+                <span class="method-start">22867 ms</span>
               </div> <!-- configuration-method before -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.google.automation.GoogleSearchRegressionTest</div> <!-- chronological-class-name -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">23253 ms</span>
+                <span class="method-start">23265 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">23915 ms</span>
+                <span class="method-start">23918 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testRegressionSearchBoxPresent</span>
-                <span class="method-start">24647 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">25482 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">setUp</span>
-                <span class="method-start">26188 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">testRegressionSearchInputHandling</span>
-                <span class="method-start">26858 ms</span>
+                <span class="method-start">24638 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.google.automation.GoogleSearchBrowserStackTest</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">testBrowserStackGoogleSearch</span>
-                <span class="method-start">27017 ms</span>
+                <span class="method-start">29604 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.google.automation.GoogleSearchRegressionTest</div> <!-- chronological-class-name -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">27770 ms</span>
+                <span class="method-start">34682 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">28482 ms</span>
+                <span class="method-start">35386 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">testRegressionSearchResultsDisplayed</span>
-                <span class="method-start">29192 ms</span>
+                <span class="method-name">testRegressionSearchInputHandling</span>
+                <span class="method-start">36077 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">31603 ms</span>
+                <span class="method-start">36967 ms</span>
               </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">37634 ms</span>
+              </div> <!-- configuration-method before -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.google.automation.GoogleSearchBrowserStackTest</div> <!-- chronological-class-name -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown([TestResult name=testBrowserStackGoogleSearch status=SUCCESS method=GoogleSearchBrowserStackTest.tes...)</span>
-                <span class="method-start">32070 ms</span>
+                <span class="method-start">37640 ms</span>
               </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.google.automation.GoogleSearchRegressionTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testRegressionSearchResultsDisplayed</span>
+                <span class="method-start">38346 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.google.automation.GoogleSearchBrowserStackTest</div> <!-- chronological-class-name -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">33287 ms</span>
+                <span class="method-start">39539 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">33287 ms</span>
+                <span class="method-start">39539 ms</span>
               </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.google.automation.GoogleSearchRegressionTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">40331 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.google.automation.GoogleSearchBrowserStackTest</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">testBrowserStackMultipleSearches</span>
-                <span class="method-start">37856 ms</span>
+                <span class="method-start">47091 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown([TestResult name=testBrowserStackMultipleSearches status=SUCCESS method=GoogleSearchBrowserStackTest...)</span>
-                <span class="method-start">52564 ms</span>
+                <span class="method-start">67734 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">54005 ms</span>
+                <span class="method-start">69215 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">54015 ms</span>
+                <span class="method-start">69215 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testBrowserStackPageLoadPerformance</span>
-                <span class="method-start">58682 ms</span>
+                <span class="method-start">75128 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown([TestResult name=testBrowserStackPageLoadPerformance status=SUCCESS method=GoogleSearchBrowserStackT...)</span>
-                <span class="method-start">59107 ms</span>
+                <span class="method-start">77799 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">60683 ms</span>
+                <span class="method-start">79032 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">60683 ms</span>
+                <span class="method-start">79032 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testBrowserStackPageNavigation</span>
-                <span class="method-start">67458 ms</span>
+                <span class="method-start">84381 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown([TestResult name=testBrowserStackPageNavigation status=SUCCESS method=GoogleSearchBrowserStackTest.t...)</span>
-                <span class="method-start">75920 ms</span>
+                <span class="method-start">91184 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">77034 ms</span>
+                <span class="method-start">92747 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">77035 ms</span>
+                <span class="method-start">92747 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testBrowserStackSearchBoxProperties</span>
-                <span class="method-start">86363 ms</span>
+                <span class="method-start">96825 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown([TestResult name=testBrowserStackSearchBoxProperties status=SUCCESS method=GoogleSearchBrowserStackT...)</span>
-                <span class="method-start">90527 ms</span>
+                <span class="method-start">100348 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">91621 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">setUp</span>
-                <span class="method-start">91621 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">testBrowserStackSearchResults</span>
-                <span class="method-start">96284 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">tearDown([TestResult name=testBrowserStackSearchResults status=FAILURE method=GoogleSearchBrowserStackTest.te...)</span>
-                <span class="method-start">121770 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">123232 ms</span>
+                <span class="method-start">101802 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

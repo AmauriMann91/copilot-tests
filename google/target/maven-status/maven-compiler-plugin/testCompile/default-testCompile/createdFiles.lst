@@ -1,4 +1,5 @@
 com\google\automation\GoogleSearchTest.class
+com\google\automation\TestResultsListener.class
 com\google\automation\BrowserStackConfig.class
 com\google\automation\BrowserStackBaseTest.class
 com\google\automation\BaseTest.class
