@@ -29,7 +29,7 @@ This project provides three complete test suites:
 | TestNG | 6.14.3 | Test framework |
 | WebDriverManager | 5.7.0 | WebDriver management |
 | Maven | 3.6+ | Build tool |
-| Java | 1.8+ | Programming language |
+| Java | 21+ | Programming language |
 | SLF4J | 1.7.36 | Logging |
 | GSON | 2.10.1 | JSON processing |
 
@@ -151,7 +151,7 @@ google/
 
 ## ⚙️ Prerequisites
 
-- **Java 1.8+** or higher
+- **Java 21+** or higher
 - **Maven 3.6+**
 - **Chrome browser** installed (for local tests)
 - **Internet connection**

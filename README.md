@@ -9,7 +9,7 @@ This project contains UI automated tests for Google Chrome browser targeting Goo
 - **TestNG** - Test framework
 - **WebDriverManager** - Automatic WebDriver management
 - **Maven** - Build tool
-- **Java 11+** - Programming language
+- **Java 21+** - Programming language
 
 ## Project Structure
 

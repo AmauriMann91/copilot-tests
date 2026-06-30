@@ -2,7 +2,11 @@
 
 ## Quick Start (30 seconds)
 
-### 1. Set Credentials
+## run all google tests in BrowserStack 
+``` cd 'C:\Users\gabim\Documents\GitHub\copilot-tests\google'; $env:BROWSERSTACK_USERNAME='amaurimoraismann_qL3hsa'; $env:BROWSERSTACK_ACCESS_KEY='v81FXLTPVGqPrG8sJxuM'; mvn test -Ddriver=browserstack 
+```
+
+## 1. Set Credentials
 ```cmd
 set BROWSERSTACK_USERNAME=amaurimoraismann_qL3hsa
 set BROWSERSTACK_ACCESS_KEY=v81FXLTPVGqPrG8sJxuM
